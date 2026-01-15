@@ -26,13 +26,10 @@ Este repositorio aloja mi currículum profesional, gestionado mediante una \*\*a
 
 
 
-\## 📄 Descargar última versión
+\## Descargar última versión
 
 Puedes descargar la versión más reciente de mi CV compilado automáticamente aquí:
 
 \[Descargar PDF](https://github.com/Patokiing/CVPATRICK/releases/latest/download/Patrick\_Pueblita\_CV.pdf)
 
-
-
-\*(Nota: El enlace de descarga funcionará una vez subas el código).\*
 

@@ -30,6 +30,6 @@ Este repositorio aloja mi currículum profesional, gestionado mediante una \*\*a
 
 Puedes descargar la versión más reciente de mi CV compilado automáticamente aquí:
 
-\[Descargar PDF](https://github.com/Patokiing/CVPATRICK/releases/latest/download/Patrick\_Pueblita\_CV.pdf)
+\[Descargar PDF](https://github.com/Patokiing/CVPATRICK/releases/latest/download/Patrick_Guillermo_Pueblita_Bautista_CV.pdf)
 
 

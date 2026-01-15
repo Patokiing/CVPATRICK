@@ -52,7 +52,7 @@ cv:
         degree: TSU
         start_date: 2021-08
         end_date: 2023-08
-    sap_&_abap_training:
+    sap_training::
       - institution: SAP Academy
         area: ABAP Workbench & Dictionary TAW10 & TAW12
         degree: Cert.

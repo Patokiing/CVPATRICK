@@ -78,7 +78,5 @@ cv:
         details: Spanish (Native), English (Intermediate B1)
 design:
   theme: classic
-  typography:
-    font_size:
-      body: 10pt
-      name: 25pt
+  font_size: 10pt
+  page_size: letter

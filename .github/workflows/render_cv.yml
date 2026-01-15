@@ -4,17 +4,33 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  build-cv:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: RenderCV Action
-        uses: rendercv/action@main
+      - name: Checkout del código
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v4
         with:
-          cv_file: Patrick_Pueblita_CV.yaml
+          python-version: '3.11'
+
+      - name: Instalar RenderCV
+        run: pip install "rendercv[full]"
+
+      - name: Generar el PDF
+        run: rendercv render Patrick_Pueblita_CV.yaml
+
+      - name: Publicar PDF en Releases
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: v1.0
+          name: Versión Actualizada
+          files: rendercv_output/*.pdf
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

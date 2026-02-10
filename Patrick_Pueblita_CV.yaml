@@ -11,10 +11,22 @@ cv:
       username: Patokiing
   sections:
     summary:
-      - Software Management Engineer (22 years old) with solid experience in Full Stack development (Laravel, React, PostgreSQL) demonstrated in educational and medical sector projects.
-      - Currently focused on SAP specialization, having successfully completed the official TAW10 academy (ABAP Workbench & Dictionary) and currently taking TAW12.
-      - Capable of translating business logic into technical solutions, integrating NetWeaver architecture knowledge, database optimization, and dialog programming.
-    experience:
+     - Bilingual Software Engineer (22 years old) with a solid Full Stack background, now fully specialized as a Junior SAP ABAP Developer.
+      - Successfully completing the official SAP academies (TAW10, TAW12) under the intensive daily mentorship of a Senior SAP Consultant.
+      - Capable of translating complex business logic into technical solutions, with a strong command of Object-Oriented ABAP, Design Patterns (Factory, Singleton), and advanced exception handling.
+  sap_training:
+      - institution: SAP Guided Mentorship Program
+        area: ABAP Objects & HANA Preparation (TAW10 - TAW12)
+        degree: Cert. Equivalent
+        date: "2025 - Present"
+        highlights:
+          - "Intensive, hands-on training under the direct mentorship of Omar Romero Aldana, Senior SAP ABAP & PI/PO Consultant."
+          - "**Advanced ABAP OO Project:** Developed a complex enterprise simulation applying Factory/Singleton patterns, interfaces, and class-based exception mapping. Repository: [github.com/Patokiing/ABAP-PROJECT](https://github.com/Patokiing/ABAP-PROJECT.git)"
+          - "**Tools & Dictionary:** Mastery of ABAP Workbench (SE80), Code Inspector, and Data Modeling (SE11)."
+          - "**Core Language & OOP:** Advanced handling of Internal Tables, Global/Local Classes, Interfaces, and Event Handling."
+          - "**Database & Performance:** Advanced Open SQL (SELECT, JOINS, FOR ALL ENTRIES) and performance optimization, bridging to future SAP HANA integration."
+          - "**Dialog Programming:** Screen Programming (PBO/PAI), Transaction Codes, and UI Elements."
+  experience:
       - company: Editorial Cicacep
         position: Full Stack Developer
         start_date: 2025-01
@@ -25,8 +37,8 @@ cv:
           - Managed deployment and maintenance of critical web applications for the editorial's operation.
       - company: Freelance
         position: Full Stack Developer (Medical Office Web App)
-        start_date: 2024-09
-        end_date: 2024-12
+        start_date: 2025-09
+        end_date: 2025-12
         location: Remote
         highlights:
           - Designed end-to-end architecture and development of a clinical management system (SaaS) using Laravel and React.
@@ -39,7 +51,7 @@ cv:
         location: Mexico
         highlights:
           - Collaborated on technical requirements gathering and functional documentation for consulting projects.
-    education:
+  education:
       - institution: Universidad Tecnológica de Tecámac (UTTEC)
         area: Engineering in Software Management and Development
         degree: BS
@@ -52,29 +64,18 @@ cv:
         degree: TSU
         start_date: 2021-08
         end_date: 2023-08
-    sap_training::
-      - institution: SAP Academy
-        area: ABAP Workbench & Dictionary TAW10 & TAW12
-        degree: Cert.
-        date: "2025"
-        highlights:
-          - "**Tools:** Mastery of ABAP Workbench, Object Navigator (SE80), and Code Inspector."
-          - "**Core Language:** Advanced handling of elementary and complex data types (Structures, Internal Tables)."
-          - "**Modularization:** Creation and consumption of Subroutines, Function Modules, and Methods (Local/Global Classes)."
-          - "**Integration:** Knowledge of RFCs, BAPIs, and Web Services for SOA."
-          - "**Data Dictionary (DDIC):** Data Modeling (SE11), Transparent Tables, Database Views, and Maintenance Views."
-          - "**Open SQL:** Efficient database queries (SELECT, JOINS, FOR ALL ENTRIES) and performance optimization."
-          - "**Dialog Programming:** Screen Programming (PBO/PAI), Transaction Codes, GUI Status, and UI Elements."
-    skills:
+  skills:
       - label: Backend
-        details: PHP (Laravel), Java, SAP ABAP
+        details: SAP ABAP, ABAP OO, PHP (Laravel), Java
       - label: Frontend
         details: React JS, Bootstrap, HTML5/CSS3
       - label: Databases
-        details: PostgreSQL, SQLite, MySQL, SAP HANA (Open SQL)
+        details: SAP HANA (Open SQL), PostgreSQL, SQLite, MySQL
       - label: DevOps & Tools
         details: Docker, AWS CodePipeline, CI/CD, GitHub, Power BI
       - label: Languages
-        details: Spanish (Native), English (Intermediate B1)
+        details: Spanish (Native), English (Upper-Intermediate B2 - CENLEX IPN)
 design:
   theme: classic
+
+

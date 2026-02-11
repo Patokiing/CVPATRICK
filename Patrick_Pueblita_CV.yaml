@@ -1,22 +1,22 @@
 cv:
-  name: Patrick Guillermo Pueblita Bautista
-  headline: Software Engineer | Full Stack Developer & Aspiring SAP ABAP Consultant
-  location: State of Mexico, Mexico
-  email: patrickpueb@gmail.com
-  phone: +52 720 392 0372
-  social_networks:
-    - network: LinkedIn
-      username: patrick-pueblita-bautista-845954295
-    - network: GitHub
-      username: Patokiing
-  sections:
-    summary:
-     - Bilingual Software Engineer (22 years old) with a solid Full Stack background, now fully specialized as a Junior SAP ABAP Developer.
-      - Successfully completing the official SAP academies (TAW10, TAW12) under the intensive daily mentorship of a Senior SAP Consultant.
-      - Capable of translating complex business logic into technical solutions, with a strong command of Object-Oriented ABAP, Design Patterns (Factory, Singleton), and advanced exception handling.
+name: Patrick Guillermo Pueblita Bautista
+headline: Junior SAP ABAP Developer | Full Stack Software Engineer
+location: State of Mexico, Mexico
+email: patrickpueb@gmail.com
+phone: +52 720 392 0372
+social_networks:
+  - network: LinkedIn
+    username: patrick-pueblita-bautista-845954295
+  - network: GitHub
+    username: Patokiing
+sections:
+  summary:
+   - Bilingual Software Engineer (22 years old) with a solid Full Stack background, now fully specialized as a Junior SAP ABAP Developer.
+    - Successfully completing the official SAP academies (TAW10, TAW12, TAW13, TAW14) under the intensive daily mentorship of a Senior SAP Consultant.
+    - Capable of translating complex business logic into technical solutions, with a strong command of Object-Oriented ABAP, Design Patterns (Factory, Singleton), and advanced exception handling.
   sap_training:
       - institution: SAP Guided Mentorship Program
-        area: ABAP Objects & HANA Preparation (TAW10 - TAW12)
+        area: ABAP Objects & HANA Preparation (TAW10 - TAW14)
         degree: Cert. Equivalent
         date: "2025 - Present"
         highlights:
@@ -37,8 +37,8 @@ cv:
           - Managed deployment and maintenance of critical web applications for the editorial's operation.
       - company: Freelance
         position: Full Stack Developer (Medical Office Web App)
-        start_date: 2025-09
-        end_date: 2025-12
+        start_date: 2024-09
+        end_date: 2024-12
         location: Remote
         highlights:
           - Designed end-to-end architecture and development of a clinical management system (SaaS) using Laravel and React.
@@ -77,5 +77,3 @@ cv:
         details: Spanish (Native), English (Upper-Intermediate B2 - CENLEX IPN)
 design:
   theme: classic
-
-

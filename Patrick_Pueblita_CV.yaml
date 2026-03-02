@@ -11,20 +11,20 @@ cv:
       username: Patokiing
   sections:
     summary:
-      - "Junior SAP ABAP Developer with 1 year of focused experience, strong Object-Oriented foundations, and hands-on exposure to enterprise environments."
-      - "Transitioned from a Full Stack background, bringing database expertise, business logic automation (AppSheet, Machine Learning), and production deployment experience to SAP ecosystems."
-      - "Practically applied ABAP skills by analyzing and debugging productive fiscal logic (SAT) for Grupo Gilsa, alongside intensive training (TAW10, TAW12) in Open SQL and OOP ALV reporting."
-    sap_training:
-      - institution: SAP Guided Mentorship Program
-        area: ABAP Objects & HANA Preparation (TAW10 - TAW12)
-        degree: Cert.
+      - "Junior SAP ABAP Developer with exactly 1 year of experience in ABAP development, strong Object-Oriented foundations, and hands-on experience debugging productive FI-related fiscal programs (Mexican SAT compliance)."
+      - "Skilled in advanced OO-ALV reporting (CL_GUI_ALV_GRID), dynamic programming (RTTI), Open SQL performance tuning, and enterprise business logic analysis."
+      - "Former Full Stack Developer bringing production deployment and database architecture experience to SAP technical environments. Exposure to enhancement framework, BADI, and classical user-exits."
+    sap_technical_experience:
+      - institution: Grupo Gilsa & SAP Guided Mentorship
+        area: ABAP Objects, FI-Module Logic & HANA Preparation
+        degree: Project & Cert.
         date: "2025 - Present"
         highlights:
-          - "Intensive, hands-on training under the direct mentorship of Omar Romero Aldana, Senior SAP ABAP & PI/PO Consultant."
-          - "**Advanced Debugging & Business Logic:** Analyzed and debugged complex productive programs, including Mexican fiscal (SAT) requirements for Grupo Gilsa."
-          - "**ALV Reporting & OOP:** Developed object-oriented reporting solutions using CL_SALV_TABLE for optimized data extraction and presentation."
-          - "**Advanced ABAP OO Project:** Developed a complex enterprise simulation applying Factory/Singleton patterns, interfaces, and class-based exception mapping. Repository: [github.com/Patokiing/ABAP-PROJECT](https://github.com/Patokiing/ABAP-PROJECT.git)"
-          - "**Database & Performance:** Advanced Open SQL (SELECT, JOINS, FOR ALL ENTRIES) and performance optimization, bridging to future SAP HANA integration."
+          - "**Análisis y Debugging:** Productive debugging and traceability of complex ABAP code in FI-related fiscal programs (Mexican SAT compliance) to resolve logical incidents in financial reports."
+          - "**Desarrollo OO-ALV:** Implementation of advanced reporting using Object-Oriented ALV (CL_GUI_ALV_GRID / CL_SALV_TABLE) and Custom Containers."
+          - "**Programación Dinámica:** Applied Run Time Type Identification (RTTI) using CL_ABAP_TYPEDESCR and downcasting for dynamic Fieldcatalog generation."
+          - "**Optimización (Performance):** Refactored internal table handling using Field Symbols (<fs>), BINARY SEARCH, and mass updates (MODIFY ... TRANSPORTING) to prevent memory dumps and reduce unnecessary loops."
+          - "**Advanced ABAP OO Project:** Developed a complex enterprise simulation applying Factory/Singleton patterns. Repository: [github.com/Patokiing/ABAP-PROJECT](https://github.com/Patokiing/ABAP-PROJECT.git)"
     experience:
       - company: Freelance / Independent Consultant
         position: Full Stack & Automation Developer
@@ -34,14 +34,14 @@ cv:
         highlights:
           - "Automated business workflows and developed custom applications using Google AppSheet, bridging the gap between business requirements and technical solutions."
           - "Designed end-to-end architecture and development of a clinical management SaaS using Laravel, React, and PostgreSQL. Repository: [github.com/Patokiing/Colsultorio-App](https://github.com/Patokiing/Colsultorio-App)"
-          - "Integrated basic Machine Learning models to enhance data processing and application capabilities."
+          - "Implemented data-processing automation using lightweight Machine Learning models for business optimization."
       - company: Editorial Cicacep
         position: Full Stack Developer
         start_date: 2025-01
         end_date: 2025-08
         location: Mexico
         highlights:
-          - "Led backend optimization for educational services, improving server response times and database queries."
+          - "Led backend optimization for educational services, improving server response times and database queries significantly."
           - "Managed deployment and maintenance of critical web applications for the editorial's operation."
       - company: Jimtech
         position: Consultant Intern
@@ -65,11 +65,11 @@ cv:
         end_date: 2023-08
     skills:
       - label: SAP ABAP Core
-        details: ABAP OO, ALV Reports (CL_SALV_TABLE), Debugging, Open SQL, SAP HANA Preparation
+        details: ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Performance Tuning, Debugging, BADI, User-Exits, Enhancements
       - label: Backend & Automation
-        details: PHP (Laravel), Java, Google AppSheet, Machine Learning
+        details: PHP (Laravel), Java, Google AppSheet, Data Automation
       - label: Frontend & Databases
-        details: React JS, PostgreSQL, MySQL, HTML5/CSS3
+        details: React JS, PostgreSQL, MySQL, SAP HANA (Open SQL)
       - label: DevOps & Tools
         details: Docker, CI/CD, GitHub, ABAP Workbench (SE80, SE11)
       - label: Languages

@@ -17,7 +17,7 @@ cv:
     sap_technical_experience:
       - institution: Grupo Gilsa & SAP Guided Mentorship
         area: ABAP Objects, FI-Module Logic & HANA Preparation
-        degree: Project & Cert.
+        degree: "Experience"
         date: "2025 - Present"
         highlights:
           - "**Análisis y Debugging:** Productive debugging and traceability of complex ABAP code in FI-related fiscal programs (Mexican SAT compliance) to resolve logical incidents in financial reports."

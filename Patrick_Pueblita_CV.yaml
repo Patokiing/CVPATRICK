@@ -24,6 +24,7 @@ cv:
           - "**Desarrollo OO-ALV:** Implementation of advanced reporting using Object-Oriented ALV (CL_GUI_ALV_GRID / CL_SALV_TABLE) and Custom Containers."
           - "**Programación Dinámica:** Applied Run Time Type Identification (RTTI) using CL_ABAP_TYPEDESCR and downcasting for dynamic Fieldcatalog generation."
           - "**Optimización (Performance):** Refactored internal table handling using Field Symbols (<fs>), BINARY SEARCH, and mass updates (MODIFY ... TRANSPORTING) to prevent memory dumps and reduce unnecessary loops."
+          - "**Transport & Landscape:** Experience managing Transport Requests (SE09/SE10) and object versioning in multi-system landscapes (DEV ➔ QAS ➔ PRD)."
           - "**Advanced ABAP OO Project:** Developed a complex enterprise simulation applying Factory/Singleton patterns. Repository: [github.com/Patokiing/ABAP-PROJECT](https://github.com/Patokiing/ABAP-PROJECT.git)"
     experience:
       - company: Freelance / Independent Consultant
@@ -65,13 +66,15 @@ cv:
         end_date: 2023-08
     skills:
       - label: SAP ABAP Core
-        details: ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Performance Tuning, Debugging, BADI, User-Exits, Enhancements
+        details: ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Performance Tuning, Debugging, BADI, User-Exits, Enhancements, SmartForms
+      - label: SAP Functional Exposure
+        details: FI (Fiscal compliance logic - SAT)
       - label: Backend & Automation
         details: PHP (Laravel), Java, Google AppSheet, Data Automation
       - label: Frontend & Databases
         details: React JS, PostgreSQL, MySQL, SAP HANA (Open SQL)
       - label: DevOps & Tools
-        details: Docker, CI/CD, GitHub, ABAP Workbench (SE80, SE11)
+        details: Docker, CI/CD, GitHub, ABAP Workbench (SE80, SE11, SE09, SE10)
       - label: Languages
         details: Spanish (Native), English (B1 Technical Advanced - CENLEX IPN)
 design:

@@ -30,7 +30,7 @@ cv:
       - company: Freelance / Independent Consultant
         position: Full Stack & Automation Developer
         start_date: 2024-09
-        end_date: 2025-08
+        end_date: 2024-12
         location: Remote
         highlights:
           - "Automated business workflows and developed custom applications using Google AppSheet, bridging the gap between business requirements and technical solutions."
@@ -42,15 +42,18 @@ cv:
         end_date: 2025-08
         location: Mexico
         highlights:
-          - "Led backend optimization for educational services, improving server response times and database queries significantly."
-          - "Managed deployment and maintenance of critical web applications for the editorial's operation."
+          - "Executed system maintenance and provided technical support for critical web applications, ensuring high availability for editorial operations."
+          - "Designed and developed RESTful APIs to streamline internal data flow and improve system integrations."
+          - "Implemented process automation leveraging Artificial Intelligence tools, significantly reducing manual workloads and optimizing repetitive tasks."
       - company: Jimtech
         position: Consultant Intern
         start_date: 2023-04
         end_date: 2023-08
         location: Mexico
         highlights:
-          - "Collaborated on technical requirements gathering and functional documentation for consulting projects."
+          - "Integrated Artificial Intelligence solutions to power dynamic data visualizations and interactive enterprise dashboards."
+          - "Developed and deployed conversational chatbots to improve user interaction and automate customer service responses."
+          - "Implemented and consumed various APIs to connect diverse systems, enhancing the overall functionality of consulting projects."
     education:
       - institution: Universidad Tecnológica de Tecámac (UTTEC)
         area: Engineering in Software Management and Development

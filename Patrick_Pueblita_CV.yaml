@@ -12,18 +12,17 @@ cv:
 
   sections:
     summary:
-      - "SAP ABAP & Full-Stack Developer with 2+ years building production systems. Co-founded Teotek where I designed a zero-cloud-cost AI architecture and eliminated DDoS threats on a live logistics platform. One of few developers who ships ABAP fixes in productive SAP environments and deploys modern React features within the same sprint. Currently competing at Talent Land Hackathon 2026 (FIFA World Cup track). SAP Fiori certification in progress."
+      - "SAP ABAP & Full-Stack Developer with 2+ years shipping production systems. Co-founded Teotek delivering zero-cloud-cost AI architecture and DDoS-resilient logistics platforms. One of few junior developers who resolves ABAP incidents in productive SAP environments and ships modern React features within the same sprint. SAP Fiori certification in progress."
 
     experience:
       - company: Talent Land Hackathon 2026 - La Ruta de la Garnacha
-        position: Full-Stack Developer & QA -- FIFA World Cup Track
+        position: Full-Stack & AI Developer -- FIFA World Cup Track
         start_date: 2026-04
         end_date: present
         location: Mexico
         highlights:
-          - "Delivered full-stack ownership across the entire sprint: designed and seeded the Supabase database (50 businesses, 30+ stamps), built backend endpoints, and shipped production-ready React UI -- touching every layer of the stack every day."
-          - "Built the QR check-in module end-to-end: JWT-signed backend endpoint + React UI rendering print-ready PNG codes -- core gamification mechanic designed to scale for FIFA World Cup 2026 fan venues."
-          - "Integrated DeepL API with Redis caching to auto-translate content into 6 languages and developed the owner dashboard + admin panel (approval workflow, KPIs) -- both secured behind RBAC middleware."
+          - "Engineered RESTful endpoints (TypeScript, Hono, Edge Runtime) with parallel data fetching (Promise.all) to Supabase (PostgreSQL) -- designed for massive FIFA World Cup 2026 fan traffic."
+          - "Integrated Google GenAI SDK (Gemini 2.5 Flash) into the backend with Prompt Engineering to auto-generate real-time summaries of fan reviews and venue experiences for international tourists."
 
       - company: Teotek
         position: Co-Founder & Lead Developer
@@ -31,26 +30,16 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Designed a zero-cloud-cost AI architecture running Llama 3.2 locally via Ollama, achieving sub-1s latency and eliminating recurring API expenses from day one -- a deliberate cost-first infrastructure decision."
-          - "Achieved 95% accuracy in financial data processing via a dynamic heuristic algorithm (Pandas) that auto-detects arbitrary Excel structures regardless of language or format."
-          - "Eliminated DDoS threats on a live logistics platform (NexusPanel) by implementing IP/email rate-limiting and Cloudflare Turnstile -- protecting 24/7 e-commerce operations."
+          - "Architected zero-cloud-cost AI platform running Llama 3.2 locally via Ollama (sub-1s latency); built heuristic algorithm (Pandas) achieving 95% accuracy parsing arbitrary financial Excel structures."
+          - "Secured a live logistics platform against DDoS attacks via IP/email rate-limiting and Cloudflare Turnstile -- protecting 24/7 e-commerce operations."
 
-      - company: SAP Mentorship - Legacy ABAP & S/4HANA
-        position: ABAP Developer (Guided by Senior SAP Consultant)
-        start_date: 2025-09
-        end_date: 2026-03
-        location: Mexico
-        highlights:
-          - "Completed structured mentorship under a senior legacy ABAP consultant via SAP Learning Hub: studied core ABAP OO, performance patterns and S/4HANA migration concepts, applying knowledge on real client projects including Grupo Gilsa."
-
-      - company: Grupo Gilsa
+      - company: Grupo Gilsa (SAP Mentorship - Senior ABAP Consultant)
         position: SAP ABAP Developer
         start_date: 2025-01
         end_date: present
         location: Mexico
         highlights:
-          - "Guaranteed 100% SAT fiscal compliance by debugging critical incidents in productive FI-module ABAP programs with full traceability in live environments."
-          - "Implemented OO-ALV reports (CL_GUI_ALV_GRID), dynamic programming via RTTI, and refactored internal tables with Field Symbols -- preventing memory dumps in high-volume batch processes."
+          - "Guaranteed 100% SAT fiscal compliance debugging critical FI-module ABAP incidents in live production; implemented OO-ALV (CL_GUI_ALV_GRID), RTTI dynamic programming, and Field Symbols optimization to prevent memory dumps."
 
       - company: Editorial Cicacep
         position: Full Stack Developer
@@ -58,7 +47,7 @@ cv:
         end_date: 2025-08
         location: Mexico
         highlights:
-          - "Maintained 99%+ uptime for critical web applications; designed RESTful APIs that streamlined internal data flow and automated repetitive workflows using AI tools."
+          - "Maintained 99%+ uptime for editorial web apps; built RESTful APIs and automated workflows with AI tools to reduce manual workload."
 
       - company: Freelance & Consulting (Jimtech + Independent)
         position: Full Stack & Automation Developer
@@ -66,7 +55,7 @@ cv:
         end_date: 2024-12
         location: Mexico / Remote
         highlights:
-          - "Built AI-powered dashboards, deployed chatbots for customer service automation, and designed a clinical management SaaS (Laravel, React, PostgreSQL) -- connecting APIs including Google Maps, WhatsApp, and Supabase across projects."
+          - "Designed a clinical SaaS (Laravel, React, PostgreSQL), built AI dashboards, and deployed customer service chatbots -- integrating Google Maps, WhatsApp and Supabase APIs across client projects."
 
     education:
       - institution: Universidad Tecnologica de Tecamac (UTTEC)
@@ -76,7 +65,6 @@ cv:
         end_date: 2025-08
         highlights:
           - "GPA 9.0/10. Degree obtained."
-
       - institution: Universidad Tecnologica de Tecamac (UTTEC)
         area: Multiplatform Software Development
         degree: TSU
@@ -85,13 +73,13 @@ cv:
 
     skills:
       - label: SAP ABAP & Fiori
-        details: "ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Debugging, BADI, SmartForms, FI/SAT - OData V2/V4, CDS Views, Fiori Elements, BAS (certification in progress)"
+        details: "ABAP OO, OO-ALV Grid, RTTI, Field Symbols, BADI, SmartForms, FI/SAT - OData V2/V4, CDS Views, Fiori Elements, BAS (certification in progress)"
       - label: Backend & AI
-        details: "Python (Flask, Pandas), PHP (Laravel), TypeScript, Hono, Node.js - Ollama/Llama 3.2, Google GenAI SDK (Gemini), Prompt Engineering"
+        details: "Python (Flask, Pandas), PHP (Laravel), TypeScript, Hono, Node.js - Ollama/Llama 3.2, Google GenAI SDK (Gemini 2.5 Flash), Prompt Engineering"
       - label: Frontend & Databases
-        details: "React, SAPUI5, Vite - MySQL, PostgreSQL, Supabase - Leaflet.js, REST APIs, Redis"
+        details: "React, SAPUI5, Vite - MySQL, PostgreSQL, Supabase - REST APIs"
       - label: DevOps & Security
-        details: "Docker, Git/GitHub, CI/CD, cPanel, Vercel - Rate-limiting, Cloudflare Turnstile, ABAP Workbench (SE80, SE11, SE09/SE10)"
+        details: "Docker, Git/GitHub, CI/CD, Vercel, cPanel - Cloudflare Turnstile, ABAP Workbench (SE80, SE11, SE09/SE10)"
       - label: Languages
         details: "Spanish (Native) - English (Intermediate-Advanced)"
 

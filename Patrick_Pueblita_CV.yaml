@@ -12,16 +12,16 @@ cv:
 
   sections:
     summary:
-      - "Junior SAP ABAP and Full-Stack Developer with 2+ years building web applications and automation projects. Hands-on experience debugging legacy ABAP programs through guided project work, combined with production experience in React, TypeScript, Laravel, and AI-enabled workflows."
+      - "Junior SAP ABAP and Full-Stack Developer with 2+ years building web applications, automation tools, and client-facing platforms. Experience with legacy ABAP debugging through guided project work, plus production work with React, TypeScript, Laravel, and AI-assisted workflows."
 
     experience:
-      - company: SAP ABAP Mentorship
+      - company: Independent SAP ABAP Training
         position: Junior SAP ABAP Developer Trainee
         start_date: 2025-08
         end_date: present
         location: Mexico
         highlights:
-          - "Learning legacy ABAP through guided mentorship and hands-on debugging practice on real project code, while building familiarity with core SAP development tools and workflows."
+          - "Developing hands-on experience in legacy ABAP through guided debugging practice on real project code, while building familiarity with SAP GUI, ABAP Workbench, and Fiori fundamentals."
 
       - company: Teotek
         position: Co-Founder & Lead Developer
@@ -30,14 +30,6 @@ cv:
         location: Mexico
         highlights:
           - "Built an AI-enabled logistics platform using Ollama, Redis, and Python, including spreadsheet parsing workflows and anti-abuse protections for a client-facing platform."
-
-      - company: Talent Land Hackathon 2026
-        position: Full-Stack & AI Developer
-        start_date: 2026-04
-        end_date: present
-        location: Mexico
-        highlights:
-          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to generate tourism review summaries for a FIFA World Cup 2026 hackathon solution."
 
       - company: Editorial Cicacep
         position: Full-Stack Developer
@@ -55,6 +47,14 @@ cv:
         highlights:
           - "Delivered SaaS, dashboards, and automation projects using Laravel, React, PostgreSQL, Supabase, and third-party API integrations."
 
+      - company: Talent Land Hackathon 2026
+        position: Full-Stack & AI Developer
+        start_date: 2026-04
+        end_date: present
+        location: Mexico
+        highlights:
+          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to generate tourism review summaries for a World Cup 2026 hackathon solution."
+
     education:
       - institution: Universidad Tecnologica de Tecamac (UTTEC)
         area: Software Engineering Management and Development
@@ -66,15 +66,11 @@ cv:
 
     skills:
       - label: SAP
-        details: "Legacy ABAP, Debugging, ABAP Workbench fundamentals, SAP GUI, Fiori fundamentals, SAP Business Application Studio"
+        details: "Legacy ABAP, Debugging, ABAP Workbench, SAP GUI, Fiori Fundamentals, SAP Business Application Studio"
       - label: Full-Stack
         details: "React, SAPUI5, TypeScript, Hono, Node.js, Python, Laravel, PostgreSQL, MySQL, Supabase, Redis"
       - label: Tools & Languages
         details: "Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile, Spanish (Native), English (Intermediate-Advanced)"
-
-    additional_information:
-      - label: SAP Learning
-        details: "Learning the Basics of SAP Fiori course in progress."
 
 design:
   theme: classic

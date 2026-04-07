@@ -12,7 +12,7 @@ cv:
 
   sections:
     summary:
-      - "Software Engineer with experience in SAP ABAP and modern full-stack development. Built web, automation, and AI-assisted solutions using React, TypeScript, Laravel, Python, and SAP-related tooling, with hands-on legacy ABAP debugging through guided project work."
+      - "Software Engineer focused on SAP ABAP and full-stack development, with hands-on experience in legacy ABAP debugging and in building AI-assisted web and automation solutions using React, TypeScript, Python, and Laravel."
 
     experience:
       - company: Independent SAP ABAP Training
@@ -29,7 +29,7 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Built an AI-enabled logistics platform using Python, Redis, and Ollama to process spreadsheet-based workflows and support reliable client-facing operations."
+          - "Built an AI-enabled logistics platform using Python, Redis, and Ollama to process spreadsheet-based workflows and support real client-facing workflows."
 
       - company: Talent Land Hackathon 2026 - FIFA World Cup Track
         position: Full-Stack & AI Developer

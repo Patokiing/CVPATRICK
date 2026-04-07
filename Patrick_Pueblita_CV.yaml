@@ -12,7 +12,7 @@ cv:
 
   sections:
     summary:
-      - "Junior SAP ABAP and Full-Stack Developer with 2+ years building web applications, automation tools, and client-facing platforms. Experience with legacy ABAP debugging through guided project work, plus production work with React, TypeScript, Laravel, and AI-assisted workflows."
+      - "Software Engineer with experience in SAP ABAP and modern full-stack development. Built web, automation, and AI-assisted solutions using React, TypeScript, Laravel, Python, and SAP-related tooling, with hands-on legacy ABAP debugging through guided project work."
 
     experience:
       - company: Independent SAP ABAP Training
@@ -29,7 +29,15 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Built an AI-enabled logistics platform using Ollama, Redis, and Python, including spreadsheet parsing workflows and anti-abuse protections for a client-facing platform."
+          - "Built an AI-enabled logistics platform using Python, Redis, and Ollama to process spreadsheet-based workflows and support reliable client-facing operations."
+
+      - company: Talent Land Hackathon 2026 - FIFA World Cup Track
+        position: Full-Stack & AI Developer
+        start_date: 2026-04
+        end_date: present
+        location: Mexico
+        highlights:
+          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to process and summarize tourism-related content for a World Cup 2026 hackathon solution focused on visitor experience."
 
       - company: Editorial Cicacep
         position: Full-Stack Developer
@@ -45,15 +53,7 @@ cv:
         end_date: 2024-12
         location: Mexico / Remote
         highlights:
-          - "Delivered SaaS, dashboards, and automation projects using Laravel, React, PostgreSQL, Supabase, and third-party API integrations."
-
-      - company: Talent Land Hackathon 2026
-        position: Full-Stack & AI Developer
-        start_date: 2026-04
-        end_date: present
-        location: Mexico
-        highlights:
-          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to generate tourism review summaries for a World Cup 2026 hackathon solution."
+          - "Delivered SaaS platforms, dashboards, and automation solutions using Laravel, React, PostgreSQL, Supabase, and third-party API integrations."
 
     education:
       - institution: Universidad Tecnologica de Tecamac (UTTEC)

@@ -1,6 +1,6 @@
 cv:
   name: Patrick Guillermo Pueblita Bautista
-  headline: SAP ABAP Developer & Full-Stack Engineer · Co-Founder @ Teotek
+  headline: SAP ABAP Developer & Full-Stack Engineer - Co-Founder @ Teotek
   location: State of Mexico, Mexico
   email: patrickpueb@gmail.com
   phone: "+52 720 392 0372"
@@ -12,19 +12,19 @@ cv:
 
   sections:
     summary:
-      - "SAP ABAP & Full-Stack Developer with 2+ years building enterprise solutions at scale. Co-founded Teotek where I cut AI operational costs by 66% and secured a logistics platform against 100% of DDoS attacks. Currently competing at Talent Land Hackathon 2026 (FIFA World Cup track) — architecting real-time fan data infrastructure for millions of concurrent users. SAP Fiori certification in progress (SAP Learning Hub); positioned to bridge ABAP backend with modern S/4HANA UX."
+      - "SAP ABAP & Full-Stack Developer with 2+ years building enterprise solutions at scale. Co-founded Teotek where I cut AI operational costs by 66% and secured a logistics platform against 100% of DDoS attacks. Currently competing at Talent Land Hackathon 2026 (FIFA World Cup track) -- architecting real-time fan data infrastructure for millions of concurrent users. SAP Fiori certification in progress (SAP Learning Hub); positioned to bridge ABAP backend with modern S/4HANA UX."
 
     experience:
-      - company: Talent Land Hackathon 2026  —  La Ruta de la Garnacha
-        position: Full-Stack Developer & QA — FIFA World Cup Track
+      - company: Talent Land Hackathon 2026 - La Ruta de la Garnacha
+        position: Full-Stack Developer & QA -- FIFA World Cup Track
         start_date: 2026-04
         end_date: present
         location: Mexico
         highlights:
-          - "Delivered full-stack ownership across the entire sprint: designed and seeded the Supabase database (50 businesses, 30+ stamps, real lat/lng for CDMX/GDL/MTY), built backend endpoints, and shipped production-ready UI — touching every layer of the stack every day."
-          - "Built the QR generation module end-to-end: backend endpoint that signs QR tokens per business (JWT) + React UI that renders print-ready PNG codes (A4) — the physical check-in mechanic that drives the entire gamification loop for fans at FIFA World Cup 2026 venues."
+          - "Delivered full-stack ownership across the entire sprint: designed and seeded the Supabase database (50 businesses, 30+ stamps, real lat/lng for CDMX/GDL/MTY), built backend endpoints, and shipped production-ready UI -- touching every layer of the stack every day."
+          - "Built the QR generation module end-to-end: backend endpoint that signs QR tokens per business (JWT) + React UI that renders print-ready PNG codes (A4) -- the physical check-in mechanic that drives the entire gamification loop for fans at FIFA World Cup 2026 venues."
           - "Integrated DeepL API on the backend with Redis caching to auto-translate business profiles and menus into 6 languages, cutting redundant API calls and enabling the platform to serve a multilingual audience of millions."
-          - "Developed two complete product surfaces: the owner dashboard (React, metrics: visits/check-ins/avg rating + AI-generated review summary) and the admin panel (business approval workflow, global KPIs) — both gated behind RBAC middleware."
+          - "Developed two complete product surfaces: the owner dashboard (React, metrics: visits/check-ins/avg rating + AI-generated review summary) and the admin panel (business approval workflow, global KPIs) -- both gated behind RBAC middleware."
           - "Led QA across all 7 sprint days on real mobile devices: identified and filed critical bugs as GitHub issues, curated the demo dataset (10 businesses, full profiles, 30+ reviews), and co-delivered a rehearsed demo under 8 minutes for the jury."
 
       - company: Teotek
@@ -33,9 +33,9 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Cut AI operational costs by 66% by migrating from cloud APIs (OpenAI) to a local Llama 3.2 model via Ollama, achieving <1s latency — deployed in production for a consulting client."
+          - "Cut AI operational costs by 66% by migrating from cloud APIs (OpenAI) to a local Llama 3.2 model via Ollama, achieving sub-1s latency -- deployed in production for a consulting client."
           - "Achieved 95% accuracy in financial data processing by building a dynamic heuristic algorithm (Pandas) that auto-detects arbitrary Excel structures regardless of language or format."
-          - "Eliminated 100% of DDoS attacks on a live logistics platform (NexusPanel) by implementing IP/email-level rate-limiting and Cloudflare Turnstile — protecting 24/7 e-commerce operations."
+          - "Eliminated 100% of DDoS attacks on a live logistics platform (NexusPanel) by implementing IP/email-level rate-limiting and Cloudflare Turnstile -- protecting 24/7 e-commerce operations."
           - "Shipped a full-stack delivery platform with real-time GPS tracking (Leaflet.js), role-based access, and full cPanel production deployment in 6 weeks."
 
       - company: Grupo Gilsa & SAP Guided Mentorship
@@ -47,7 +47,7 @@ cv:
           - "Guaranteed 100% SAT fiscal compliance by debugging and resolving critical incidents in productive FI-module ABAP programs, with full traceability in live environments."
           - "Implemented advanced OO-ALV reports (CL_GUI_ALV_GRID) and dynamic programming using RTTI (CL_ABAP_TYPEDESCR) for automatic fieldcatalog generation via downcasting."
           - "Refactored internal tables using Field Symbols and BINARY SEARCH, preventing memory dumps in high-volume batch processes."
-          - "Managed Transport Requests (SE09/SE10) across DEV→QAS→PRD landscapes with zero rollbacks. Repository: github.com/Patokiing/ABAP-PROJECT"
+          - "Managed Transport Requests (SE09/SE10) across DEV -> QAS -> PRD landscapes with zero rollbacks. Repository: github.com/Patokiing/ABAP-PROJECT"
 
       - company: Editorial Cicacep
         position: Full Stack Developer
@@ -74,10 +74,10 @@ cv:
         end_date: 2023-08
         location: Mexico
         highlights:
-          - "Built AI-powered interactive dashboards and deployed conversational chatbots to automate customer service — connected 5+ external APIs across consulting projects."
+          - "Built AI-powered interactive dashboards and deployed conversational chatbots to automate customer service -- connected 5+ external APIs across consulting projects."
 
     education:
-      - institution: Universidad Tecnológica de Tecámac (UTTEC)
+      - institution: Universidad Tecnologica de Tecamac (UTTEC)
         area: Engineering in Software Management and Development
         degree: BS
         start_date: 2024-01
@@ -85,7 +85,7 @@ cv:
         highlights:
           - "Outstanding GPA. Degree obtained."
 
-      - institution: Universidad Tecnológica de Tecámac (UTTEC)
+      - institution: Universidad Tecnologica de Tecamac (UTTEC)
         area: Multiplatform Software Development
         degree: TSU
         start_date: 2021-08
@@ -93,15 +93,15 @@ cv:
 
     skills:
       - label: SAP ABAP & Fiori
-        details: "ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Performance Tuning, Debugging, BADI, SmartForms, FI/SAT · OData V2/V4, CDS Views, Fiori Elements, Fiori Launchpad, BAS (certification in progress)"
+        details: "ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Performance Tuning, Debugging, BADI, SmartForms, FI/SAT - OData V2/V4, CDS Views, Fiori Elements, Fiori Launchpad, BAS (certification in progress)"
       - label: Backend & AI
-        details: "Python (Flask, Pandas), PHP (Laravel), TypeScript, Hono, Node.js · Ollama/Llama 3.2, Google GenAI SDK (Gemini), Prompt Engineering"
+        details: "Python (Flask, Pandas), PHP (Laravel), TypeScript, Hono, Node.js - Ollama/Llama 3.2, Google GenAI SDK (Gemini), Prompt Engineering"
       - label: Frontend & Databases
-        details: "React, SAPUI5, Vite · MySQL, PostgreSQL, Supabase · Leaflet.js, REST APIs"
+        details: "React, SAPUI5, Vite - MySQL, PostgreSQL, Supabase - Leaflet.js, REST APIs"
       - label: DevOps & Security
-        details: "Docker, Git/GitHub, CI/CD, cPanel, Vercel · Rate-limiting, Cloudflare Turnstile, CORS/SSL hardening, ABAP Workbench (SE80, SE11, SE09/SE10)"
+        details: "Docker, Git/GitHub, CI/CD, cPanel, Vercel - Rate-limiting, Cloudflare Turnstile, CORS/SSL hardening, ABAP Workbench (SE80, SE11, SE09/SE10)"
       - label: Languages
-        details: "Spanish (Native) · English B2 Technical (CENLEX IPN)"
+        details: "Spanish (Native) - English B2 Technical (CENLEX IPN)"
 
 design:
   theme: classic

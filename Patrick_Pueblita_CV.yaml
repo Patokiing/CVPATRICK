@@ -73,14 +73,12 @@ cv:
         end_date: 2023-08
 
     skills:
-      - label: SAP
+      - label: SAP & Fiori
         details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, FI/SAT, RAP Model, OData V2/V4, CDS Views, Fiori Elements, BAS (cert. in progress)"
-      - label: Backend
-        details: "Python (Flask, Pandas), PHP (Laravel), TypeScript, Hono, Node.js, Redis - Llama 3.2/Ollama, Gemini 2.5 Flash, Prompt Engineering"
-      - label: Frontend & DevOps
-        details: "React, SAPUI5, Vite, MySQL, PostgreSQL, Supabase - Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile"
-      - label: Languages
-        details: "Spanish (Native), English B2 (CENLEX IPN)"
+      - label: Full-Stack & AI
+        details: "React, SAPUI5, TypeScript, Hono, Node.js, Python, PHP (Laravel) - PostgreSQL, MySQL, Supabase, Redis - Llama 3.2, Gemini 2.5 Flash, Prompt Engineering"
+      - label: DevOps & Languages
+        details: "Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile - Spanish (Native), English B2 (CENLEX IPN)"
 
 design:
   theme: classic

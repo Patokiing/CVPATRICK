@@ -12,16 +12,16 @@ cv:
 
   sections:
     summary:
-      - "SAP ABAP and Full-Stack Developer with 2+ years building production systems across SAP, web platforms, and AI-enabled workflows. Experience resolving ABAP incidents in productive environments and delivering React/TypeScript solutions for real clients."
+      - "SAP ABAP and Full-Stack Developer with 2+ years building production systems across SAP, web applications, and AI-powered workflows. Experience resolving ABAP issues in production environments and delivering React/TypeScript features for real clients."
 
     experience:
-      - company: Grupo Gilsa & SAP Mentorship
+      - company: Grupo Gilsa
         position: SAP ABAP Developer
         start_date: 2025-08
         end_date: present
         location: Mexico
         highlights:
-          - "Resolved FI-related ABAP incidents in production, supported transport flow across DEV, QAS, and PRD, and applied RAP and S/4HANA migration concepts through SAP Learning Hub."
+          - "Resolved FI-related ABAP issues in production, supported transport flow across DEV, QAS, and PRD, and applied RAP and S/4HANA migration concepts through SAP Learning Hub."
 
       - company: Teotek
         position: Co-Founder & Lead Developer
@@ -29,7 +29,7 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Built an AI-enabled logistics platform using Ollama, Redis, and Python, including spreadsheet parsing workflows and anti-abuse protections for a client-facing system."
+          - "Built an AI-enabled logistics platform using Ollama, Redis, and Python, including spreadsheet parsing workflows and anti-abuse protections for a client-facing platform."
 
       - company: Talent Land Hackathon 2026
         position: Full-Stack & AI Developer
@@ -40,7 +40,7 @@ cv:
           - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to generate tourism review summaries for a FIFA World Cup 2026 hackathon solution."
 
       - company: Editorial Cicacep
-        position: Full Stack Developer
+        position: Full-Stack Developer
         start_date: 2025-01
         end_date: 2025-08
         location: Mexico
@@ -48,7 +48,7 @@ cv:
           - "Built internal REST APIs, automated editorial workflows with AI tools, and added Jest tests to improve reliability."
 
       - company: Freelance & Consulting
-        position: Full Stack & Automation Developer
+        position: Full-Stack & Automation Developer
         start_date: 2023-04
         end_date: 2024-12
         location: Mexico / Remote
@@ -62,11 +62,11 @@ cv:
         start_date: 2021-08
         end_date: 2025-08
         highlights:
-          - "GPA: 9.0/10. Degree obtained."
+          - "GPA: 9.0/10"
 
     skills:
       - label: SAP
-        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, FI/SAT, RAP, CDS Views, OData V2/V4, Fiori Elements, BAS"
+        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, FI/SAT, RAP, CDS Views, OData V2/V4, Fiori Elements, SAP Business Application Studio"
       - label: Full-Stack
         details: "React, SAPUI5, TypeScript, Hono, Node.js, Python, Laravel, PostgreSQL, MySQL, Supabase, Redis"
       - label: Tools & Languages

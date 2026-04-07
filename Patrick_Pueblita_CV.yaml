@@ -1,10 +1,12 @@
 cv:
   name: Patrick Guillermo Pueblita Bautista
   headline: SAP ABAP Developer | Full-Stack Engineer
-  location: Mexico
+  location: State of Mexico, Mexico
   email: patrickpueb@gmail.com
   phone: "+52 720 392 0372"
   social_networks:
+    - network: WhatsApp
+      username: "+52 55 7107 5067"
     - network: LinkedIn
       username: patrick-pueblita-bautista-845954295
     - network: GitHub
@@ -12,7 +14,7 @@ cv:
 
   sections:
     summary:
-      - "SAP ABAP and Full-Stack Developer with 2+ years building production systems across SAP, web platforms, and AI-enabled workflows. Experience resolving ABAP incidents in productive environments and shipping React/TypeScript solutions for real clients."
+      - "SAP ABAP and Full-Stack Developer with 2+ years building production systems across SAP, web platforms, and AI-enabled workflows. Experience resolving ABAP incidents in productive environments and delivering React/TypeScript solutions for real clients."
 
     experience:
       - company: Grupo Gilsa & SAP Mentorship
@@ -21,7 +23,7 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Resolved FI-module ABAP incidents in production, managed transports DEV -> QAS -> PRD, and applied RAP and S/4HANA migration patterns through SAP Learning Hub."
+          - "Resolved FI-related ABAP incidents in production, supported transport flow across DEV, QAS, and PRD, and applied RAP and S/4HANA migration concepts through SAP Learning Hub."
 
       - company: Teotek
         position: Co-Founder & Lead Developer
@@ -29,7 +31,7 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Built a cost-efficient AI and logistics platform with Ollama, Redis, and Python, including Excel-structure parsing and DDoS protection for 24/7 operations."
+          - "Built an AI-enabled logistics platform using Ollama, Redis, and Python, including spreadsheet parsing workflows and anti-abuse protections for a client-facing system."
 
       - company: Talent Land Hackathon 2026
         position: Full-Stack & AI Developer
@@ -37,7 +39,7 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to generate review summaries for FIFA World Cup tourism scenarios."
+          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to generate tourism review summaries for a FIFA World Cup 2026 hackathon solution."
 
       - company: Editorial Cicacep
         position: Full Stack Developer
@@ -53,24 +55,24 @@ cv:
         end_date: 2024-12
         location: Mexico / Remote
         highlights:
-          - "Delivered SaaS, dashboards, and chatbots using Laravel, React, PostgreSQL, Supabase, and third-party integrations."
+          - "Delivered SaaS, dashboards, and automation projects using Laravel, React, PostgreSQL, Supabase, and third-party API integrations."
 
     education:
       - institution: Universidad Tecnologica de Tecamac (UTTEC)
-        area: Software Development
-        degree: BS + TSU
-        start_date: 2021-08
+        area: Software Engineering Management and Development
+        degree: BS
+        start_date: 2024-01
         end_date: 2025-08
         highlights:
-          - "BS in Engineering in Software Management and Development; TSU in Multiplatform Software Development. GPA: 9.0/10."
+          - "GPA: 9.0/10. Degree obtained."
 
     skills:
       - label: SAP
-        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, FI/SAT, RAP, CDS, OData, Fiori Elements, BAS"
+        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, FI/SAT, RAP, CDS Views, OData V2/V4, Fiori Elements, BAS"
       - label: Full-Stack
-        details: "React, SAPUI5, TypeScript, Node.js, Hono, Python, Laravel, PostgreSQL, MySQL, Supabase, Redis"
+        details: "React, SAPUI5, TypeScript, Hono, Node.js, Python, Laravel, PostgreSQL, MySQL, Supabase, Redis"
       - label: Tools & Languages
-        details: "Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile, Spanish, English (Intermediate-Advanced)"
+        details: "Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile, Spanish (Native), English (Intermediate-Advanced)"
 
 design:
   theme: classic

@@ -39,7 +39,7 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Guaranteed 100% SAT fiscal compliance debugging critical FI-module ABAP incidents in live production; trained via SAP Learning Hub under a senior legacy ABAP consultant applying RAP model concepts and S/4HANA migration patterns."
+          - "Guaranteed 100% SAT fiscal compliance debugging critical FI-module ABAP incidents in live production; trained via SAP Learning Hub (Aug 2025 - present) under a senior legacy ABAP consultant applying RAP model concepts and S/4HANA migration patterns."
           - "Implemented OO-ALV (CL_GUI_ALV_GRID), RTTI dynamic programming, and Field Symbols optimization to prevent memory dumps in high-volume batch processes. Managed Transport Requests (SE09/SE10) DEV -> QAS -> PRD with zero rollbacks."
 
       - company: Editorial Cicacep
@@ -48,7 +48,7 @@ cv:
         end_date: 2025-08
         location: Mexico
         highlights:
-          - "Maintained 99%+ uptime for editorial web apps; built RESTful APIs, automated workflows with AI tools, and implemented integration tests (Jest) to ensure system reliability."
+          - "Built RESTful APIs to streamline internal data flow, automated editorial workflows with AI tools, and implemented integration tests (Jest) to ensure system reliability."
 
       - company: Freelance & Consulting (Jimtech + Independent)
         position: Full Stack & Automation Developer
@@ -82,7 +82,7 @@ cv:
       - label: DevOps, Testing & Security
         details: "Docker, Git/GitHub, CI/CD, Vercel, cPanel - Jest, Pytest - Cloudflare Turnstile, ABAP Workbench (SE80, SE11, SE09/SE10)"
       - label: Languages
-        details: "Spanish (Native) - English B2 Technical (CENLEX IPN)"
+        details: "Spanish (Native) - English (Intermediate-Advanced)"
 
 design:
   theme: classic

@@ -1,6 +1,6 @@
 cv:
   name: Patrick Guillermo Pueblita Bautista
-  headline: Junior SAP ABAP Developer | Full Stack Software Engineer
+  headline: SAP ABAP Developer & Full-Stack Engineer · Co-Founder @ Teotek
   location: State of Mexico, Mexico
   email: patrickpueb@gmail.com
   phone: "+52 720 392 0372"
@@ -9,51 +9,73 @@ cv:
       username: patrick-pueblita-bautista-845954295
     - network: GitHub
       username: Patokiing
+
   sections:
     summary:
-      - "Junior SAP ABAP Developer with exactly 1 year of experience in ABAP development, strong Object-Oriented foundations, and hands-on experience debugging productive FI-related fiscal programs (Mexican SAT compliance)."
-      - "Skilled in advanced OO-ALV reporting (CL_GUI_ALV_GRID), dynamic programming (RTTI), Open SQL performance tuning, and enterprise business logic analysis."
-      - "Former Full Stack Developer bringing production deployment and database architecture experience to SAP technical environments. Exposure to enhancement framework, BADI, and classical user-exits."
-    sap_technical_experience:
-      - institution: Grupo Gilsa & SAP Guided Mentorship
-        area: ABAP Objects, FI-Module Logic & HANA Preparation
-        degree: "Experience"
-        date: "2025 - Present"
-        highlights:
-          - "**Análisis y Debugging:** Productive debugging and traceability of complex ABAP code in FI-related fiscal programs (Mexican SAT compliance) to resolve logical incidents in financial reports."
-          - "**Desarrollo OO-ALV:** Implementation of advanced reporting using Object-Oriented ALV (CL_GUI_ALV_GRID / CL_SALV_TABLE) and Custom Containers."
-          - "**Programación Dinámica:** Applied Run Time Type Identification (RTTI) using CL_ABAP_TYPEDESCR and downcasting for dynamic Fieldcatalog generation."
-          - "**Optimización (Performance):** Refactored internal table handling using Field Symbols (<fs>), BINARY SEARCH, and mass updates (MODIFY ... TRANSPORTING) to prevent memory dumps and reduce unnecessary loops."
-          - "**Transport & Landscape:** Experience managing Transport Requests (SE09/SE10) and object versioning in multi-system landscapes (DEV ➔ QAS ➔ PRD)."
-          - "**Advanced ABAP OO Project:** Developed a complex enterprise simulation applying Factory/Singleton patterns. Repository: [github.com/Patokiing/ABAP-PROJECT](https://github.com/Patokiing/ABAP-PROJECT.git)"
+      - "SAP ABAP & Full-Stack Developer with 2+ years building enterprise solutions at scale. Co-founded Teotek where I cut AI operational costs by 66% and secured a logistics platform against 100% of DDoS attacks. Currently competing at Talent Land Hackathon 2026 (FIFA World Cup track) — architecting real-time fan data infrastructure for millions of concurrent users. SAP Fiori certification in progress (SAP Learning Hub); positioned to bridge ABAP backend with modern S/4HANA UX."
+
     experience:
-      - company: Freelance / Independent Consultant
-        position: Full Stack & Automation Developer
-        start_date: 2024-09
-        end_date: 2024-12
-        location: Remote
+      - company: Talent Land Hackathon 2026  —  La Ruta de la Garnacha
+        position: Full-Stack Developer & QA — FIFA World Cup Track
+        start_date: 2026-04
+        end_date: present
+        location: Mexico
         highlights:
-          - "Automated business workflows and developed custom applications using Google AppSheet, bridging the gap between business requirements and technical solutions."
-          - "Designed end-to-end architecture and development of a clinical management SaaS using Laravel, React, and PostgreSQL. Repository: [github.com/Patokiing/Colsultorio-App](https://github.com/Patokiing/Colsultorio-App)"
-          - "Implemented data-processing automation using lightweight Machine Learning models for business optimization."
+          - "Delivered full-stack ownership across the entire sprint: designed and seeded the Supabase database (50 businesses, 30+ stamps, real lat/lng for CDMX/GDL/MTY), built backend endpoints, and shipped production-ready UI — touching every layer of the stack every day."
+          - "Built the QR generation module end-to-end: backend endpoint that signs QR tokens per business (JWT) + React UI that renders print-ready PNG codes (A4) — the physical check-in mechanic that drives the entire gamification loop for fans at FIFA World Cup 2026 venues."
+          - "Integrated DeepL API on the backend with Redis caching to auto-translate business profiles and menus into 6 languages, cutting redundant API calls and enabling the platform to serve a multilingual audience of millions."
+          - "Developed two complete product surfaces: the owner dashboard (React, metrics: visits/check-ins/avg rating + AI-generated review summary) and the admin panel (business approval workflow, global KPIs) — both gated behind RBAC middleware."
+          - "Led QA across all 7 sprint days on real mobile devices: identified and filed critical bugs as GitHub issues, curated the demo dataset (10 businesses, full profiles, 30+ reviews), and co-delivered a rehearsed demo under 8 minutes for the jury."
+
+      - company: Teotek
+        position: Co-Founder & Lead Developer
+        start_date: 2026-01
+        end_date: present
+        location: Mexico
+        highlights:
+          - "Cut AI operational costs by 66% by migrating from cloud APIs (OpenAI) to a local Llama 3.2 model via Ollama, achieving <1s latency — deployed in production for a consulting client."
+          - "Achieved 95% accuracy in financial data processing by building a dynamic heuristic algorithm (Pandas) that auto-detects arbitrary Excel structures regardless of language or format."
+          - "Eliminated 100% of DDoS attacks on a live logistics platform (NexusPanel) by implementing IP/email-level rate-limiting and Cloudflare Turnstile — protecting 24/7 e-commerce operations."
+          - "Shipped a full-stack delivery platform with real-time GPS tracking (Leaflet.js), role-based access, and full cPanel production deployment in 6 weeks."
+
+      - company: Grupo Gilsa & SAP Guided Mentorship
+        position: SAP ABAP Developer
+        start_date: 2025-01
+        end_date: present
+        location: Mexico
+        highlights:
+          - "Guaranteed 100% SAT fiscal compliance by debugging and resolving critical incidents in productive FI-module ABAP programs, with full traceability in live environments."
+          - "Implemented advanced OO-ALV reports (CL_GUI_ALV_GRID) and dynamic programming using RTTI (CL_ABAP_TYPEDESCR) for automatic fieldcatalog generation via downcasting."
+          - "Refactored internal tables using Field Symbols and BINARY SEARCH, preventing memory dumps in high-volume batch processes."
+          - "Managed Transport Requests (SE09/SE10) across DEV→QAS→PRD landscapes with zero rollbacks. Repository: github.com/Patokiing/ABAP-PROJECT"
+
       - company: Editorial Cicacep
         position: Full Stack Developer
         start_date: 2025-01
         end_date: 2025-08
         location: Mexico
         highlights:
-          - "Executed system maintenance and provided technical support for critical web applications, ensuring high availability for editorial operations."
-          - "Designed and developed RESTful APIs to streamline internal data flow and improve system integrations."
-          - "Implemented process automation leveraging Artificial Intelligence tools, significantly reducing manual workloads and optimizing repetitive tasks."
+          - "Maintained 99%+ uptime for critical editorial web applications through proactive maintenance and rapid incident response."
+          - "Designed RESTful APIs that streamlined internal data flow and reduced manual integration effort across editorial systems."
+          - "Automated repetitive workflows leveraging AI tools, significantly reducing manual workload in daily production operations."
+
+      - company: Freelance / Independent Consultant
+        position: Full Stack & Automation Developer
+        start_date: 2024-09
+        end_date: 2024-12
+        location: Remote
+        highlights:
+          - "Designed end-to-end architecture of a clinical management SaaS using Laravel, React, and PostgreSQL. Repository: github.com/Patokiing/Colsultorio-App"
+          - "Automated business workflows using Google AppSheet and lightweight ML models for business optimization."
+
       - company: Jimtech
         position: Consultant Intern
         start_date: 2023-04
         end_date: 2023-08
         location: Mexico
         highlights:
-          - "Integrated Artificial Intelligence solutions to power dynamic data visualizations and interactive enterprise dashboards."
-          - "Developed and deployed conversational chatbots to improve user interaction and automate customer service responses."
-          - "Implemented and consumed various APIs to connect diverse systems, enhancing the overall functionality of consulting projects."
+          - "Built AI-powered interactive dashboards and deployed conversational chatbots to automate customer service — connected 5+ external APIs across consulting projects."
+
     education:
       - institution: Universidad Tecnológica de Tecámac (UTTEC)
         area: Engineering in Software Management and Development
@@ -61,24 +83,25 @@ cv:
         start_date: 2024-01
         end_date: 2025-08
         highlights:
-          - Outstanding GPA. Currently in the degree certification process.
+          - "Outstanding GPA. Degree obtained."
+
       - institution: Universidad Tecnológica de Tecámac (UTTEC)
         area: Multiplatform Software Development
         degree: TSU
         start_date: 2021-08
         end_date: 2023-08
+
     skills:
-      - label: SAP ABAP Core
-        details: ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Performance Tuning, Debugging, BADI, User-Exits, Enhancements, SmartForms
-      - label: SAP Functional Exposure
-        details: FI (Fiscal compliance logic - SAT)
-      - label: Backend & Automation
-        details: PHP (Laravel), Java, Google AppSheet, Data Automation
+      - label: SAP ABAP & Fiori
+        details: "ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Performance Tuning, Debugging, BADI, SmartForms, FI/SAT · OData V2/V4, CDS Views, Fiori Elements, Fiori Launchpad, BAS (certification in progress)"
+      - label: Backend & AI
+        details: "Python (Flask, Pandas), PHP (Laravel), TypeScript, Hono, Node.js · Ollama/Llama 3.2, Google GenAI SDK (Gemini), Prompt Engineering"
       - label: Frontend & Databases
-        details: React JS, PostgreSQL, MySQL, SAP HANA (Open SQL)
-      - label: DevOps & Tools
-        details: Docker, CI/CD, GitHub, ABAP Workbench (SE80, SE11, SE09, SE10)
+        details: "React, SAPUI5, Vite · MySQL, PostgreSQL, Supabase · Leaflet.js, REST APIs"
+      - label: DevOps & Security
+        details: "Docker, Git/GitHub, CI/CD, cPanel, Vercel · Rate-limiting, Cloudflare Turnstile, CORS/SSL hardening, ABAP Workbench (SE80, SE11, SE09/SE10)"
       - label: Languages
-        details: Spanish (Native), English (B1 Technical Advanced - CENLEX IPN)
+        details: "Spanish (Native) · English B2 Technical (CENLEX IPN)"
+
 design:
   theme: classic

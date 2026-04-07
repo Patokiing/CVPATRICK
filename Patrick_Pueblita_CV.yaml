@@ -1,6 +1,6 @@
 cv:
   name: Patrick Guillermo Pueblita Bautista
-  headline: SAP ABAP Developer | Full-Stack Engineer
+  headline: Junior SAP ABAP Developer | Full-Stack Engineer
   location: State of Mexico, Mexico
   email: patrickpueb@gmail.com
   phone: "+52 720 392 0372"
@@ -12,16 +12,16 @@ cv:
 
   sections:
     summary:
-      - "SAP ABAP and Full-Stack Developer with 2+ years building production systems across SAP, web applications, and AI-powered workflows. Experience resolving ABAP issues in production environments and delivering React/TypeScript features for real clients."
+      - "Junior SAP ABAP and Full-Stack Developer with 2+ years building web applications and automation projects. Hands-on experience debugging legacy ABAP programs through guided project work, combined with production experience in React, TypeScript, Laravel, and AI-enabled workflows."
 
     experience:
-      - company: Grupo Gilsa
-        position: SAP ABAP Developer
+      - company: SAP ABAP Mentorship
+        position: Junior SAP ABAP Developer Trainee
         start_date: 2025-08
         end_date: present
         location: Mexico
         highlights:
-          - "Resolved FI-related ABAP issues in production, supported transport flow across DEV, QAS, and PRD, and applied RAP and S/4HANA migration concepts through SAP Learning Hub."
+          - "Learning legacy ABAP through guided mentorship and hands-on debugging practice on real project code, while building familiarity with core SAP development tools and workflows."
 
       - company: Teotek
         position: Co-Founder & Lead Developer
@@ -66,11 +66,15 @@ cv:
 
     skills:
       - label: SAP
-        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, FI/SAT, RAP, CDS Views, OData V2/V4, Fiori Elements, SAP Business Application Studio"
+        details: "Legacy ABAP, Debugging, ABAP Workbench fundamentals, SAP GUI, Fiori fundamentals, SAP Business Application Studio"
       - label: Full-Stack
         details: "React, SAPUI5, TypeScript, Hono, Node.js, Python, Laravel, PostgreSQL, MySQL, Supabase, Redis"
       - label: Tools & Languages
         details: "Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile, Spanish (Native), English (Intermediate-Advanced)"
+
+    additional_information:
+      - label: SAP Learning
+        details: "Learning the Basics of SAP Fiori course in progress."
 
 design:
   theme: classic

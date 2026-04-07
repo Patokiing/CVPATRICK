@@ -12,7 +12,7 @@ cv:
 
   sections:
     summary:
-      - "SAP ABAP & Full-Stack Developer with 2+ years building enterprise solutions at scale. Co-founded Teotek where I cut AI operational costs by 66% and secured a logistics platform against 100% of DDoS attacks. Currently competing at Talent Land Hackathon 2026 (FIFA World Cup track) -- architecting real-time fan data infrastructure for millions of concurrent users. SAP Fiori certification in progress (SAP Learning Hub); positioned to bridge ABAP backend with modern S/4HANA UX."
+      - "SAP ABAP & Full-Stack Developer with 2+ years building enterprise solutions at scale. Co-founded Teotek where I cut AI operational costs by 66% and secured a logistics platform against 100% of DDoS attacks. Currently competing at Talent Land Hackathon 2026 (FIFA World Cup track) -- architecting real-time fan data infrastructure for millions of concurrent users. SAP Fiori certification in progress; positioned to bridge ABAP backend with modern S/4HANA UX."
 
     experience:
       - company: Talent Land Hackathon 2026 - La Ruta de la Garnacha
@@ -21,11 +21,9 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Delivered full-stack ownership across the entire sprint: designed and seeded the Supabase database (50 businesses, 30+ stamps, real lat/lng for CDMX/GDL/MTY), built backend endpoints, and shipped production-ready UI -- touching every layer of the stack every day."
-          - "Built the QR generation module end-to-end: backend endpoint that signs QR tokens per business (JWT) + React UI that renders print-ready PNG codes (A4) -- the physical check-in mechanic that drives the entire gamification loop for fans at FIFA World Cup 2026 venues."
-          - "Integrated DeepL API on the backend with Redis caching to auto-translate business profiles and menus into 6 languages, cutting redundant API calls and enabling the platform to serve a multilingual audience of millions."
-          - "Developed two complete product surfaces: the owner dashboard (React, metrics: visits/check-ins/avg rating + AI-generated review summary) and the admin panel (business approval workflow, global KPIs) -- both gated behind RBAC middleware."
-          - "Led QA across all 7 sprint days on real mobile devices: identified and filed critical bugs as GitHub issues, curated the demo dataset (10 businesses, full profiles, 30+ reviews), and co-delivered a rehearsed demo under 8 minutes for the jury."
+          - "Delivered full-stack ownership across the entire sprint: designed and seeded the Supabase database (50 businesses, 30+ stamps), built backend endpoints, and shipped production-ready React UI -- touching every layer of the stack every day."
+          - "Built the QR check-in module end-to-end: JWT-signed backend endpoint + React UI rendering print-ready PNG codes -- core gamification mechanic for FIFA World Cup 2026 fan venues."
+          - "Integrated DeepL API with Redis caching to auto-translate content into 6 languages and developed the owner dashboard + admin panel (approval workflow, KPIs) -- both secured behind RBAC middleware."
 
       - company: Teotek
         position: Co-Founder & Lead Developer
@@ -33,10 +31,9 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Cut AI operational costs by 66% by migrating from cloud APIs (OpenAI) to a local Llama 3.2 model via Ollama, achieving sub-1s latency -- deployed in production for a consulting client."
-          - "Achieved 95% accuracy in financial data processing by building a dynamic heuristic algorithm (Pandas) that auto-detects arbitrary Excel structures regardless of language or format."
-          - "Eliminated 100% of DDoS attacks on a live logistics platform (NexusPanel) by implementing IP/email-level rate-limiting and Cloudflare Turnstile -- protecting 24/7 e-commerce operations."
-          - "Shipped a full-stack delivery platform with real-time GPS tracking (Leaflet.js), role-based access, and full cPanel production deployment in 6 weeks."
+          - "Cut AI operational costs by 66% migrating from cloud APIs to local Llama 3.2 via Ollama, achieving sub-1s latency -- deployed in production for a consulting client."
+          - "Achieved 95% accuracy in financial data processing via a dynamic heuristic algorithm (Pandas) that auto-detects arbitrary Excel structures regardless of language or format."
+          - "Eliminated 100% of DDoS attacks on a live logistics platform by implementing IP/email rate-limiting and Cloudflare Turnstile -- protecting 24/7 e-commerce operations."
 
       - company: Grupo Gilsa & SAP Guided Mentorship
         position: SAP ABAP Developer
@@ -44,10 +41,8 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Guaranteed 100% SAT fiscal compliance by debugging and resolving critical incidents in productive FI-module ABAP programs, with full traceability in live environments."
-          - "Implemented advanced OO-ALV reports (CL_GUI_ALV_GRID) and dynamic programming using RTTI (CL_ABAP_TYPEDESCR) for automatic fieldcatalog generation via downcasting."
-          - "Refactored internal tables using Field Symbols and BINARY SEARCH, preventing memory dumps in high-volume batch processes."
-          - "Managed Transport Requests (SE09/SE10) across DEV -> QAS -> PRD landscapes with zero rollbacks. Repository: github.com/Patokiing/ABAP-PROJECT"
+          - "Guaranteed 100% SAT fiscal compliance by debugging critical incidents in productive FI-module ABAP programs with full traceability in live environments."
+          - "Implemented OO-ALV reports (CL_GUI_ALV_GRID), dynamic programming via RTTI, and refactored internal tables with Field Symbols -- preventing memory dumps in high-volume batch processes."
 
       - company: Editorial Cicacep
         position: Full Stack Developer
@@ -55,26 +50,15 @@ cv:
         end_date: 2025-08
         location: Mexico
         highlights:
-          - "Maintained 99%+ uptime for critical editorial web applications through proactive maintenance and rapid incident response."
-          - "Designed RESTful APIs that streamlined internal data flow and reduced manual integration effort across editorial systems."
-          - "Automated repetitive workflows leveraging AI tools, significantly reducing manual workload in daily production operations."
+          - "Maintained 99%+ uptime for critical web applications; designed RESTful APIs that streamlined internal data flow and automated repetitive workflows using AI tools."
 
-      - company: Freelance / Independent Consultant
+      - company: Freelance & Consulting (Jimtech + Independent)
         position: Full Stack & Automation Developer
-        start_date: 2024-09
-        end_date: 2024-12
-        location: Remote
-        highlights:
-          - "Designed end-to-end architecture of a clinical management SaaS using Laravel, React, and PostgreSQL. Repository: github.com/Patokiing/Colsultorio-App"
-          - "Automated business workflows using Google AppSheet and lightweight ML models for business optimization."
-
-      - company: Jimtech
-        position: Consultant Intern
         start_date: 2023-04
-        end_date: 2023-08
-        location: Mexico
+        end_date: 2024-12
+        location: Mexico / Remote
         highlights:
-          - "Built AI-powered interactive dashboards and deployed conversational chatbots to automate customer service -- connected 5+ external APIs across consulting projects."
+          - "Built AI-powered dashboards, deployed chatbots for customer service automation, and designed a clinical management SaaS (Laravel, React, PostgreSQL) -- connecting 5+ external APIs across projects."
 
     education:
       - institution: Universidad Tecnologica de Tecamac (UTTEC)
@@ -93,15 +77,15 @@ cv:
 
     skills:
       - label: SAP ABAP & Fiori
-        details: "ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Performance Tuning, Debugging, BADI, SmartForms, FI/SAT - OData V2/V4, CDS Views, Fiori Elements, Fiori Launchpad, BAS (certification in progress)"
+        details: "ABAP OO, OO-ALV Grid, RTTI, Field Symbols, Debugging, BADI, SmartForms, FI/SAT - OData V2/V4, CDS Views, Fiori Elements, BAS (certification in progress)"
       - label: Backend & AI
         details: "Python (Flask, Pandas), PHP (Laravel), TypeScript, Hono, Node.js - Ollama/Llama 3.2, Google GenAI SDK (Gemini), Prompt Engineering"
       - label: Frontend & Databases
-        details: "React, SAPUI5, Vite - MySQL, PostgreSQL, Supabase - Leaflet.js, REST APIs"
+        details: "React, SAPUI5, Vite - MySQL, PostgreSQL, Supabase - Leaflet.js, REST APIs, Redis"
       - label: DevOps & Security
-        details: "Docker, Git/GitHub, CI/CD, cPanel, Vercel - Rate-limiting, Cloudflare Turnstile, CORS/SSL hardening, ABAP Workbench (SE80, SE11, SE09/SE10)"
+        details: "Docker, Git/GitHub, CI/CD, cPanel, Vercel - Rate-limiting, Cloudflare Turnstile, ABAP Workbench (SE80, SE11, SE09/SE10)"
       - label: Languages
-        details: "Spanish (Native) - English B2 Technical (CENLEX IPN)"
+        details: "Spanish (Native) - English (Intermediate-Advanced)"
 
 design:
   theme: classic

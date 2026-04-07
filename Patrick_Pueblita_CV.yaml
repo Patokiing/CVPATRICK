@@ -1,7 +1,7 @@
 cv:
   name: Patrick Guillermo Pueblita Bautista
-  headline: SAP ABAP Developer & Full-Stack Engineer - Co-Founder @ Teotek
-  location: State of Mexico, Mexico
+  headline: SAP ABAP Developer | Full-Stack Engineer
+  location: Mexico
   email: patrickpueb@gmail.com
   phone: "+52 720 392 0372"
   social_networks:
@@ -12,35 +12,32 @@ cv:
 
   sections:
     summary:
-      - "SAP ABAP & Full-Stack Developer with 2+ years shipping production systems. Co-founded Teotek (teotek.com.mx) delivering zero-cloud-cost AI architecture and DDoS-resilient logistics platforms. One of few junior developers who resolves ABAP incidents in productive SAP environments and ships modern React features within the same sprint. SAP Fiori certification in progress."
+      - "SAP ABAP and Full-Stack Developer with 2+ years building production systems across SAP, web platforms, and AI-enabled workflows. Experience resolving ABAP incidents in productive environments and shipping React/TypeScript solutions for real clients."
 
     experience:
-      - company: Talent Land Hackathon 2026 - La Ruta de la Garnacha
-        position: Full-Stack & AI Developer -- FIFA World Cup Track
-        start_date: 2026-04
-        end_date: present
-        location: Mexico
-        highlights:
-          - "Engineered RESTful endpoints (TypeScript, Hono, Edge Runtime) with parallel data fetching (Promise.all) to Supabase (PostgreSQL) -- designed for massive FIFA World Cup 2026 fan traffic."
-          - "Integrated Google GenAI SDK (Gemini 2.5 Flash) with Prompt Engineering to auto-generate real-time summaries of fan reviews and venue experiences for international tourists."
-
-      - company: Teotek -- teotek.com.mx
-        position: Co-Founder & Lead Developer
-        start_date: 2026-01
-        end_date: present
-        location: Mexico
-        highlights:
-          - "Architected zero-cloud-cost AI platform (Llama 3.2 via Ollama, sub-1s latency, Redis caching); built heuristic algorithm (Pandas) achieving 95% accuracy parsing arbitrary financial Excel structures for a logistics client."
-          - "Secured a live logistics platform against DDoS attacks via IP/email rate-limiting and Cloudflare Turnstile -- protecting 24/7 e-commerce operations."
-
       - company: Grupo Gilsa & SAP Mentorship
         position: SAP ABAP Developer
         start_date: 2025-08
         end_date: present
         location: Mexico
         highlights:
-          - "Guaranteed 100% SAT compliance debugging FI-module ABAP incidents in live production; trained via SAP Learning Hub (Aug 2025-present) applying RAP model and S/4HANA migration patterns."
-          - "Implemented OO-ALV (CL_GUI_ALV_GRID), RTTI, Field Symbols optimization and managed Transport Requests (SE09/SE10) DEV -> QAS -> PRD with zero rollbacks."
+          - "Resolved FI-module ABAP incidents in production, managed transports DEV -> QAS -> PRD, and applied RAP and S/4HANA migration patterns through SAP Learning Hub."
+
+      - company: Teotek
+        position: Co-Founder & Lead Developer
+        start_date: 2026-01
+        end_date: present
+        location: Mexico
+        highlights:
+          - "Built a cost-efficient AI and logistics platform with Ollama, Redis, and Python, including Excel-structure parsing and DDoS protection for 24/7 operations."
+
+      - company: Talent Land Hackathon 2026
+        position: Full-Stack & AI Developer
+        start_date: 2026-04
+        end_date: present
+        location: Mexico
+        highlights:
+          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to generate review summaries for FIFA World Cup tourism scenarios."
 
       - company: Editorial Cicacep
         position: Full Stack Developer
@@ -48,37 +45,32 @@ cv:
         end_date: 2025-08
         location: Mexico
         highlights:
-          - "Built RESTful APIs to streamline internal data flow, automated editorial workflows with AI tools, and implemented integration tests (Jest) to ensure system reliability."
+          - "Built internal REST APIs, automated editorial workflows with AI tools, and added Jest tests to improve reliability."
 
-      - company: Freelance & Consulting (Jimtech + Independent)
+      - company: Freelance & Consulting
         position: Full Stack & Automation Developer
         start_date: 2023-04
         end_date: 2024-12
         location: Mexico / Remote
         highlights:
-          - "Designed a clinical SaaS (Laravel, React, PostgreSQL), built AI dashboards, and deployed customer service chatbots -- integrating Google Maps, WhatsApp and Supabase APIs across client projects."
+          - "Delivered SaaS, dashboards, and chatbots using Laravel, React, PostgreSQL, Supabase, and third-party integrations."
 
     education:
       - institution: Universidad Tecnologica de Tecamac (UTTEC)
-        area: Engineering in Software Management and Development
-        degree: BS
-        start_date: 2024-01
+        area: Software Development
+        degree: BS + TSU
+        start_date: 2021-08
         end_date: 2025-08
         highlights:
-          - "GPA 9.0/10. Degree obtained."
-      - institution: Universidad Tecnologica de Tecamac (UTTEC)
-        area: Multiplatform Software Development
-        degree: TSU
-        start_date: 2021-08
-        end_date: 2023-08
+          - "BS in Engineering in Software Management and Development; TSU in Multiplatform Software Development. GPA: 9.0/10."
 
     skills:
-      - label: SAP & Fiori
-        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, FI/SAT, RAP Model, OData V2/V4, CDS Views, Fiori Elements, BAS (cert. in progress)"
-      - label: Full-Stack & AI
-        details: "React, SAPUI5, TypeScript, Hono, Node.js, Python, PHP (Laravel) - PostgreSQL, MySQL, Supabase, Redis - Llama 3.2, Gemini 2.5 Flash, Prompt Engineering"
-      - label: DevOps & Languages
-        details: "Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile - Spanish (Native), English B2 (CENLEX IPN)"
+      - label: SAP
+        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, FI/SAT, RAP, CDS, OData, Fiori Elements, BAS"
+      - label: Full-Stack
+        details: "React, SAPUI5, TypeScript, Node.js, Hono, Python, Laravel, PostgreSQL, MySQL, Supabase, Redis"
+      - label: Tools & Languages
+        details: "Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile, Spanish, English (Intermediate-Advanced)"
 
 design:
   theme: classic

@@ -1,6 +1,6 @@
 cv:
   name: Patrick Guillermo Pueblita Bautista
-  headline: Junior SAP ABAP Developer | Full-Stack Engineer
+  headline: Junior SAP ABAP Developer | SAPUI5 & Full-Stack Engineer
   location: State of Mexico, Mexico
   email: patrickpueb@gmail.com
   phone: "+52 720 392 0372"
@@ -12,7 +12,7 @@ cv:
 
   sections:
     summary:
-      - "Software Engineer focused on SAP ABAP and full-stack development, with hands-on experience in legacy ABAP debugging and in building AI-assisted web and automation solutions using React, TypeScript, Python, and Laravel."
+      - "Junior SAP ABAP Developer with hands-on experience in legacy ABAP debugging through guided project work, complemented by full-stack development experience building web, automation, and AI-assisted solutions with React, TypeScript, Python, and Laravel."
 
     experience:
       - company: Independent SAP ABAP Training
@@ -21,7 +21,7 @@ cv:
         end_date: present
         location: Mexico
         highlights:
-          - "Developing hands-on experience in legacy ABAP through guided debugging practice on real project code, while building familiarity with SAP GUI, ABAP Workbench, and Fiori fundamentals."
+          - "Developing hands-on experience in legacy ABAP through guided debugging practice on real project code, while building familiarity with SAP GUI, ABAP Workbench, SAPUI5, and Fiori fundamentals."
 
       - company: Teotek
         position: Co-Founder & Lead Developer
@@ -30,14 +30,6 @@ cv:
         location: Mexico
         highlights:
           - "Built an AI-enabled logistics platform using Python, Redis, and Ollama to process spreadsheet-based workflows and support real client-facing workflows."
-
-      - company: Talent Land Hackathon 2026 - FIFA World Cup Track
-        position: Full-Stack & AI Developer
-        start_date: 2026-04
-        end_date: present
-        location: Mexico
-        highlights:
-          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to process and summarize tourism-related content for a World Cup 2026 hackathon solution focused on visitor experience."
 
       - company: Editorial Cicacep
         position: Full-Stack Developer
@@ -55,6 +47,14 @@ cv:
         highlights:
           - "Delivered SaaS platforms, dashboards, and automation solutions using Laravel, React, PostgreSQL, Supabase, and third-party API integrations."
 
+      - company: Talent Land Hackathon 2026 - FIFA World Cup Track
+        position: Full-Stack & AI Developer
+        start_date: 2026-04
+        end_date: present
+        location: Mexico
+        highlights:
+          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to process and summarize tourism-related content for a World Cup 2026 hackathon solution focused on visitor experience."
+
     education:
       - institution: Universidad Tecnologica de Tecamac (UTTEC)
         area: Software Engineering Management and Development
@@ -66,9 +66,9 @@ cv:
 
     skills:
       - label: SAP
-        details: "Legacy ABAP, Debugging, ABAP Workbench, SAP GUI, Fiori Fundamentals, SAP Business Application Studio"
-      - label: Full-Stack
-        details: "React, SAPUI5, TypeScript, Hono, Node.js, Python, Laravel, PostgreSQL, MySQL, Supabase, Redis"
+        details: "Legacy ABAP, Debugging, ABAP Workbench, SAP GUI, SAPUI5, Fiori Fundamentals, SAP Business Application Studio"
+      - label: Development
+        details: "React, TypeScript, Hono, Node.js, Python, Laravel, PostgreSQL, MySQL, Supabase, Redis"
       - label: Tools & Languages
         details: "Docker, Git/GitHub, CI/CD, Vercel, Jest, Pytest, Cloudflare Turnstile, Spanish (Native), English (Intermediate-Advanced)"
 

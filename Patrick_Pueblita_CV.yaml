@@ -48,12 +48,13 @@ cv:
           - "Delivered SaaS platforms, dashboards, and automation solutions using Laravel, React, PostgreSQL, Supabase, and third-party API integrations."
 
       - company: Talent Land Hackathon 2026 - FIFA World Cup Track
-        position: Full-Stack & AI Developer
+        position: Full-Stack & AI Developer | 2nd Place Winner
         start_date: 2026-04
         end_date: present
         location: Mexico
         highlights:
-          - "Developed TypeScript/Hono APIs and integrated Gemini 2.5 Flash to process and summarize tourism-related content for a World Cup 2026 hackathon solution focused on visitor experience."
+          - "Co-developed a 72-hour solution using TypeScript/Hono, Gemini 2.5 Flash, and Supabase to process and summarize tourism-related content, earning 2nd place at Talent Land 2026."
+          - "Built APIs and AI-assisted workflows focused on helping users navigate large amounts of information during a high-demand event scenario."
 
     education:
       - institution: Universidad Tecnologica de Tecamac (UTTEC)

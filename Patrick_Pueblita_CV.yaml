@@ -18,7 +18,7 @@ cv:
       - company: "Talent Land Hackathon 2026 – FIFA World Cup Track"
         position: "Full-Stack & AI Developer | 2nd Place Winner"
         start_date: 2026-04
-        end_date: present
+        end_date: 2026-04
         location: Mexico
         highlights:
           - "Co-developed a 72-hour full-stack solution (TypeScript, Hono, Edge Runtime, Supabase/PostgreSQL) with parallel data fetching (Promise.all) – designed for massive FIFA World Cup 2026 fan traffic."
@@ -77,7 +77,6 @@ cv:
       - label: DevOps & Testing
         details: "Docker, Git/GitHub, CI/CD, Vercel, cPanel – Jest, Pytest – Cloudflare Turnstile"
       - label: Languages
-        details: "Spanish (Native), English B2 (CENLEX IPN)"
-
+        details: "Spanish (Native), English  (Intermediate-Advanced)
 design:
   theme: classic

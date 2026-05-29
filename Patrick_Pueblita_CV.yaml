@@ -12,9 +12,18 @@ cv:
 
   sections:
     summary:
-      - "SAP ABAP & Full-Stack Developer with 2+ years shipping production systems across web, automation, and AI-assisted solutions. Co-founded Teotek (teotek.com.mx) delivering zero-cloud-cost AI architecture and DDoS-resilient logistics platforms. 2nd Place at Talent Land Hackathon 2026 (FIFA World Cup Track). SAP Fiori/BAS certification in progress."
+      - "SAP ABAP & Full-Stack Developer with 2+ years shipping production systems across web, automation, and AI-assisted solutions. Currently working at Grupo Televisa – izzi on SAP ECC/S4HANA development. Co-founded Teotek (teotek.com.mx) delivering zero-cloud-cost AI architecture and DDoS-resilient logistics platforms. 2nd Place at Talent Land Hackathon 2026 (FIFA World Cup Track). SAP Fiori/BAS certification in progress."
 
     experience:
+      - company: "Grupo Televisa – izzi"
+        position: "SAP ABAP Developer"
+        start_date: 2026-05
+        end_date: present
+        location: "Mexico City, Mexico"
+        highlights:
+          - "Developing and maintaining ABAP solutions in SAP ECC and S/4HANA environments, working across CDS Views, OData services (V2/V4), and Fiori/ABAP Cloud development."
+          - "Building and optimizing ABAP OO components, applying RAP model concepts and Clean Core principles for S/4HANA compatibility."
+
       - company: "Talent Land Hackathon 2026 – FIFA World Cup Track"
         position: "Full-Stack & AI Developer | 2nd Place Winner"
         date: "Apr 2026"
@@ -35,11 +44,11 @@ cv:
       - company: "SAP ABAP Learning & Practice"
         position: "SAP ABAP Developer (Self-Directed + Mentored)"
         start_date: 2025-08
-        end_date: present
+        end_date: 2026-05
         location: Mexico
         highlights:
-          - "Building hands-on ABAP skills through guided debugging practice on real FI-module code (including a 1-month engagement at Grupo Gilsa under a senior legacy ABAP consultant), applying RAP model concepts and S/4HANA migration patterns."
-          - "Practicing OO-ALV (CL_GUI_ALV_GRID), RTTI dynamic programming, Field Symbols optimization, and Transport Request management (SE09/SE10) DEV → QAS → PRD via SAP Learning Hub."
+          - "Built hands-on ABAP skills through guided debugging practice on real FI-module code (including a 1-month engagement at Grupo Gilsa under a senior legacy ABAP consultant), applying RAP model concepts and S/4HANA migration patterns."
+          - "Practiced OO-ALV (CL_GUI_ALV_GRID), RTTI dynamic programming, Field Symbols optimization, and Transport Request management (SE09/SE10) DEV -> QAS -> PRD via SAP Learning Hub."
 
       - company: "Editorial Cicacep"
         position: "Full-Stack Developer"
@@ -63,12 +72,11 @@ cv:
         degree: BS
         start_date: 2021-08
         end_date: 2025-08
-        highlights:
-          - "GPA: 9.0/10. Degree obtained."
+        
 
     skills:
       - label: SAP
-        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, SmartForms, FI/SAT, RAP Model, OData V2/V4, CDS Views, Fiori Elements, ABAP Workbench (SE80, SE11, SE09/SE10), BAS (cert. in progress)"
+        details: "ABAP OO, OO-ALV, RTTI, Field Symbols, BADI, SmartForms, FI/SAT, RAP Model, OData V2/V4, CDS Views, Fiori Elements, ABAP Cloud, SAP ECC, S/4HANA, ABAP Workbench, BAS (cert. in progress)"
       - label: Backend & AI
         details: "Python (Flask, Pandas), PHP (Laravel), TypeScript, Hono, Node.js, Redis – Llama 3.2/Ollama, Gemini 2.5 Flash, Prompt Engineering"
       - label: Frontend & Databases
@@ -76,6 +84,7 @@ cv:
       - label: DevOps & Testing
         details: "Docker, Git/GitHub, CI/CD, Vercel, cPanel – Jest, Pytest – Cloudflare Turnstile"
       - label: Languages
-        details: "Spanish (Native), English  (Intermediate-Advanced)"
+        details: "Spanish (Native), English (Intermediate-Advanced)"
+
 design:
   theme: classic

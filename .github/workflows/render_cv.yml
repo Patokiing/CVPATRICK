@@ -1,33 +1,26 @@
 name: Generar CV PDF
-
 on:
   push:
     branches:
       - main
-
 permissions:
   contents: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout del código
         uses: actions/checkout@v4
-
       - name: Instalar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-
       - name: Instalar RenderCV
         run: |
-          pip uninstall rendercv -y
-          pip install "rendercv[full]" --no-cache-dir
-
+          pip uninstall rendercv -y || true
+          pip install "rendercv[full]" --no-cache-dir --force-reinstall
       - name: Generar el PDF
-        run: rendercv render Patrick_Pueblita_CV.yaml
-
+        run: python -m rendercv render Patrick_Pueblita_CV.yaml
       - name: Publicar PDF en Releases
         uses: softprops/action-gh-release@v1
         with:

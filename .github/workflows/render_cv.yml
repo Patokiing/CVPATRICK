@@ -21,7 +21,9 @@ jobs:
           python-version: '3.11'
 
       - name: Instalar RenderCV
-        run: pip install "rendercv[full]"
+        run: |
+          pip uninstall rendercv -y
+          pip install "rendercv[full]" --no-cache-dir
 
       - name: Generar el PDF
         run: rendercv render Patrick_Pueblita_CV.yaml
